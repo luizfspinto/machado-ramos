@@ -40,13 +40,25 @@
   <main>
     <div id="home" class="slideshow-container">
       <div class="mySlides fade">
-        <img src="assets/banner1.jpg" width="100%">
+        <picture>
+          <source  srcset="assets/banner-mobile1.jpg" media="(max-width: 400px)">
+          <source srcset="assets/banner1.jpg">
+          <img src="assets/banner1.jpg" width="100%">
+        </picture>
       </div>
       <div class="mySlides fade">
-        <img src="assets/banner2.jpg" width="100%">
+        <picture>
+          <source srcset="assets/banner-mobile2.jpg" media="(max-width: 400px)">
+          <source srcset="assets/banner2.jpg">
+          <img src="assets/banner2.jpg" width="100%">
+        </picture>
       </div>
       <div class="mySlides fade">
-        <img src="assets/banner3.jpg" width="100%">
+        <picture>
+          <source srcset="assets/banner-mobile3.jpg" media="(max-width: 400px)">
+          <source srcset="assets/banner3.jpg">
+          <img src="assets/banner3.jpg" width="100%">
+        </picture>
       </div>
     </div>
 
